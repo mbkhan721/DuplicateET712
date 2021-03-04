@@ -1,0 +1,37 @@
+.button {
+  width:150px;
+  height:45px;
+  background-color:rgba(0, 102, 255, 0.774);
+  color:white;
+  font-family: corbel;
+  font-size: 16px;
+}
+
+button:hover{
+  background-color: rgb(14, 60, 211);
+  border-width: 2px;
+  border-color: black;
+
+}
+
+body{
+  background-color: rgb(142, 189, 243);
+}
+
+p{
+  font-family: corbel;
+  font-size: 24px;
+}
+
+.ansr{
+  background-color:rgb(18, 129, 219);
+  color:white;
+  width: 50%;
+  border-style:solid;
+  border-color: rgb(109, 3, 3);
+  border-width:5px;
+}
+
+h2{
+  font-family: corbel;
+}

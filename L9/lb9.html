@@ -1,0 +1,48 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+<title>The Cash Register</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="lab9.css">
+</head>
+
+<script>
+const tax = .06;
+function shoppingCart() {
+  var cartForParty = {
+    banana: "1.25",
+    handkerchief: ".99",
+    Tshirt: "25.01",
+    apple: "0.60",
+    nalgene: "10.34",
+    proteinShake: "22.36"
+ };
+
+ cashRegister(cartForParty);
+}
+function cashRegister(cashRegister) {
+  var sum = 0;
+  for (var key in cashRegister) {
+    sum += Number(cashRegister[key]);
+  }
+
+  var totalTax = sum * tax;
+  alert("Cart total is $" + sum.toFixed(2) + " plus $" + totalTax.toFixed(2) + " tax.");
+}
+</script>
+
+<center>
+<body>
+   <h1>ET 712</h1>
+   <h2>Assignment 3 - The Cash Register</h2>
+   <h3>Spring 2021</h3>
+   <h4>02/26/2021</h4>
+   <h5>By</h5>
+   <h6 id="msg">Muhammad Khan</h6>
+   <div><a href="../index.html">Return Home</a></div>
+ </center>
+
+ <p>Click the button below to calculate you total in shopping cart.</p><button onclick="shoppingCart()">Calculate</button>
+
+</body>
+</html>

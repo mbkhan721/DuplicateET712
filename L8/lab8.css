@@ -1,0 +1,28 @@
+body{
+  background-color: rgb(235, 118, 167);
+  font-family: corbel;
+}
+
+form {
+  border: inset;
+  margin: 10%;
+  color: rgb(11, 110, 223);
+  padding: 20px;
+  margin-right: 20%;
+  border-color: blue
+
+}
+
+input {
+  border: solid;
+  margin: 5%;
+  padding: 2px;
+  border-color: rgb(9, 85, 172);
+  font-family: corbel;
+}
+
+button {
+  margin: 25%;
+  color: whitesmoke;
+  padding: 20px;
+}

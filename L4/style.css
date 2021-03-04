@@ -1,0 +1,21 @@
+h1{
+  background-color:purple;
+  padding:25px;
+  margin:50px;
+  border:10px;
+  border-color:rgb(33, 166, 211);
+  border-width:10px;
+  border-style:solid;
+}
+
+h3{
+  color:rgb(255,255,255);
+}
+
+h4{
+  color:yellow;
+}
+
+body{
+  background-color:lightblue;
+} 

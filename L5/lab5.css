@@ -1,0 +1,40 @@
+.button {
+  width:150px;
+  height:25px;
+  background-color:rgba(0, 102, 255, 0.774);
+  color:white;
+}
+
+a {
+  font-family: fantasy;
+  font-size: 25px;
+  color: brown;
+  background-color: antiquewhite;
+  border: solid;
+  border-width: 2px;
+  border-radius: 15%;
+}
+
+a:hover{
+  color: whitesmoke;
+  font-family: fantasy;
+  border-color: black;
+}
+
+body{
+  background-color: azure;
+}
+
+button:hover{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: blueviolet;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 15px;
+}
+
+button:active{
+  color: royalblue;
+  border-width: 2px;
+  border-color: black;
+}

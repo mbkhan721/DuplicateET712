@@ -1,0 +1,48 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+<title>Age Calculator</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="lab7.css">
+</head>
+
+<center>
+<body>
+   <h1>ET 712</h1>
+   <h2>Lab 7 Assignment 2</h2>
+   <h3>Spring 2021</h3>
+   <h4>02/25/2021</h4>
+   <h5>By</h5>
+   <h6 id="msg">Muhammad Khan</h6>
+   <div><a href="../index.html">Return Home</a></div>
+ </center>
+
+
+<h1>The Age Calculator</h1>
+<h4 id="yrs"></h4><br>
+Please Enter Your Year of Birth: 
+<br>
+<input type="text" id="num1">
+<br>
+Please Enter desired year to know your age: 
+<br>
+<input type="text" id="num2"><br><br>
+<button onclick="ageCalculator()">Calculate</button>
+<br>
+
+
+<script>
+function ageCalculator()
+{
+var birthyear= document.getElementById("num1").value;
+var futureyear= document.getElementById("num2").value;
+var result = parseFloat(futureyear) - parseFloat(birthyear);
+var result1=result;
+if(!isNaN(result)){
+document.getElementById("yrs").innerHTML="You will be either " + (result1-1 )+ " or " + result1 + " in "+ futureyear;
+}
+}
+</script>
+
+</body>
+</html>
