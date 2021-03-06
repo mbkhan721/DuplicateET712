@@ -1,5 +1,5 @@
 <!-- Let person know what the page is doing -->
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- declaration defines that this is html document -->
 
 <!-- Tells the computer this is open of the html doc -->
 <html> <!-- Telling the computer -->
@@ -9,21 +9,56 @@
 
     <!-- Creating metadata here -->
 
-    <title>
+    <title> 
       HTML, CSS documentation 
-    </title>
+    </title> <!-- Page Title -->
+    <!-- Setting up auto width to match any device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Importing code from java script -->
+    <script type="text/javascript" src="lb10.js"></script>
 
+    <style>
+      /* A CSS selector can be created within style tags inside of html document */
+      h3 {
+        text-align: left;
+        color: black;
+        font-family: corbel;
+      }
+    </style>
+    <!-- Most styling is imported from css file below -->
     <link rel="stylesheet" href="lb10.css"
 
     <!-- Closing the head -->
   </head>
   
-
   <!-- Openning the body -->
   <body>
-    
-  </body>
 
+    <h1>This is h1 heading <h6>(Smallest being h6)</h6></h1>
+    <p>This is a paragraph.</p><br><p>Br tag represents line break.</p>
+    <br> <!-- Line break -->
+    <h3>This is internal style css</h3>
+    <!-- img tag is used for embedding images in html page. -->
+    <img src="https://cdn.bmwblog.com/wp-content/uploads/2018/03/BMW-M760Li-Nardo-Grey-2.jpg" alt="Car" width="250px"> 
+    <!-- width refers to the width of the image in this case -->
+    <!-- src is the source of the images imported from  -->
+    <!-- If the url is down, it will display alternative text as defined in alt tag which is 'Car' -->
+
+    <p class="center">This line represents the individual styling from css class selector.</p> 
+    <br>
+
+    <!-- This is a hyperlink sending user back to index page when clicked  -->
+    <div><a href="../index.html">Return Home</a></div> 
+    
+    <!-- ID 'chng' enables the function to manipulate text -->
+    <p id="chng">Click the button to change this text.</p>
+    <!-- Calling the fucntion 'changeTxt' from .js file -->
+    <button type="button" onclick="changeTxt()">Click here</button>
+
+    
+    
+  </body> <!-- Closing the body -->
 
  <!-- Closing the html document -->
 </html>
