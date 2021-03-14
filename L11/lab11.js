@@ -60,3 +60,21 @@ var names = ["Mike", "Muhammad" "Doe", "Jane", "John"];
 
 var mySelf = {firstn: "Muhammad", lastn: "Khan", myGrade: 100};
 mySelf[2] = 98;
+
+var myStuff = [20, "hat", "pow", 5];
+myStuff[1] = "cat";
+myStuff[2] = myStuff[1];
+myStuff[0] = myStuff[3] + 10;
+myStuff[3] = myStuff[0] + myStuff[0];
+
+/* ====================================================
+   ==================================================== */
+
+// Shopping Cart Items
+
+var myItems = ["gloves", "hat", "shirt", "jeans", "sneakers"];
+myItems.push("jordans");
+var myPrices = [20, 10, 25, 55, 91, 160, 180];
+myPrices.pop(5);
+var currency = myPrices.join("$ ");
+var shoppingCart = myItems[0] + " " + myPrices[1];
