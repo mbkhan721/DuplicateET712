@@ -78,3 +78,9 @@ var myPrices = [20, 10, 25, 55, 91, 160, 180];
 myPrices.pop(5);
 var currency = myPrices.join("$ ");
 var shoppingCart = myItems[0] + " " + myPrices[1];
+
+
+// =========================================
+// 03/16/2021
+
+ 
